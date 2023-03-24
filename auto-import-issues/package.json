@@ -1,0 +1,40 @@
+{
+  "name": "auto-import-issues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@soda/friendly-errors-webpack-plugin": "^1.8.1",
+    "@webpack-cli/serve": "^2.0.1",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "dotenv": "^16.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "javascript-obfuscator": "^4.0.2",
+    "mini-css-extract-plugin": "^2.7.5",
+    "style-loader": "^3.3.2",
+    "terser-webpack-plugin": "^5.3.7",
+    "unplugin-auto-import": "^0.15.2",
+    "unplugin-vue-components": "^0.24.1",
+    "vue-loader": "^17.0.1",
+    "vue-template-compiler": "^2.7.14",
+    "webpack": "^5.76.3",
+    "webpack-bundle-analyzer": "^4.8.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1",
+    "webpack-mkcert": "^1.0.3",
+    "webpack-obfuscator": "^3.5.1"
+  }
+}
